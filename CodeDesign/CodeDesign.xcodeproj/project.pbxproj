@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD940CFF24F11A6E009C81AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940CFE24F11A6E009C81AE /* AppDelegate.m */; };
+		CD940D0224F11A6E009C81AE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D0124F11A6E009C81AE /* SceneDelegate.m */; };
+		CD940D0524F11A6E009C81AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D0424F11A6E009C81AE /* ViewController.m */; };
+		CD940D0824F11A6E009C81AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD940D0624F11A6E009C81AE /* Main.storyboard */; };
+		CD940D0A24F11A6F009C81AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD940D0924F11A6F009C81AE /* Assets.xcassets */; };
+		CD940D0D24F11A6F009C81AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD940D0B24F11A6F009C81AE /* LaunchScreen.storyboard */; };
+		CD940D1024F11A6F009C81AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D0F24F11A6F009C81AE /* main.m */; };
+		CD940D1E24F11AE4009C81AE /* FileSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D1D24F11AE4009C81AE /* FileSearch.m */; };
+		CD940D2324F11EF7009C81AE /* SearchFileNameBeginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D2224F11EF7009C81AE /* SearchFileNameBeginModel.m */; };
+		CD940D2624F11F1D009C81AE /* SearchFileNameEndModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D2524F11F1D009C81AE /* SearchFileNameEndModel.m */; };
+		CD940D2924F11F36009C81AE /* SearchFileExtensionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D2824F11F36009C81AE /* SearchFileExtensionModel.m */; };
+		CD940D2D24F1216E009C81AE /* MediaActionMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D2C24F1216E009C81AE /* MediaActionMgr.m */; };
+		CD940D3424F125BA009C81AE /* MediaDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D3324F125BA009C81AE /* MediaDownload.m */; };
+		CD940D3824F1285D009C81AE /* MediaDecoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D3724F1285D009C81AE /* MediaDecoding.m */; };
+		CD940D3C24F1288D009C81AE /* MediaUnZip.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D3B24F1288D009C81AE /* MediaUnZip.m */; };
+		CD940D4024F128B8009C81AE /* MediaCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D3F24F128B8009C81AE /* MediaCache.m */; };
+		CD940D4424F12925009C81AE /* MediaActionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CD940D4324F12925009C81AE /* MediaActionNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD940CFA24F11A6E009C81AE /* CodeDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD940CFD24F11A6E009C81AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD940CFE24F11A6E009C81AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD940D0024F11A6E009C81AE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CD940D0124F11A6E009C81AE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CD940D0324F11A6E009C81AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD940D0424F11A6E009C81AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD940D0724F11A6E009C81AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD940D0924F11A6F009C81AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD940D0C24F11A6F009C81AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD940D0E24F11A6F009C81AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD940D0F24F11A6F009C81AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD940D1C24F11AE4009C81AE /* FileSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileSearch.h; path = FileSearch/FileSearch.h; sourceTree = "<group>"; };
+		CD940D1D24F11AE4009C81AE /* FileSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileSearch.m; path = FileSearch/FileSearch.m; sourceTree = "<group>"; };
+		CD940D1F24F11E7C009C81AE /* FileSearchProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FileSearchProtocol.h; path = FileSearch/FileSearchProtocol.h; sourceTree = "<group>"; };
+		CD940D2124F11EF7009C81AE /* SearchFileNameBeginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SearchFileNameBeginModel.h; path = FileSearch/Model/SearchFileNameBeginModel.h; sourceTree = "<group>"; };
+		CD940D2224F11EF7009C81AE /* SearchFileNameBeginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SearchFileNameBeginModel.m; path = FileSearch/Model/SearchFileNameBeginModel.m; sourceTree = "<group>"; };
+		CD940D2424F11F1D009C81AE /* SearchFileNameEndModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SearchFileNameEndModel.h; path = FileSearch/Model/SearchFileNameEndModel.h; sourceTree = "<group>"; };
+		CD940D2524F11F1D009C81AE /* SearchFileNameEndModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SearchFileNameEndModel.m; path = FileSearch/Model/SearchFileNameEndModel.m; sourceTree = "<group>"; };
+		CD940D2724F11F36009C81AE /* SearchFileExtensionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SearchFileExtensionModel.h; path = FileSearch/Model/SearchFileExtensionModel.h; sourceTree = "<group>"; };
+		CD940D2824F11F36009C81AE /* SearchFileExtensionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SearchFileExtensionModel.m; path = FileSearch/Model/SearchFileExtensionModel.m; sourceTree = "<group>"; };
+		CD940D2B24F1216E009C81AE /* MediaActionMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaActionMgr.h; path = MediaAction/MediaActionMgr.h; sourceTree = "<group>"; };
+		CD940D2C24F1216E009C81AE /* MediaActionMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MediaActionMgr.m; path = MediaAction/MediaActionMgr.m; sourceTree = "<group>"; };
+		CD940D3224F125BA009C81AE /* MediaDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaDownload.h; path = CodeDesign/MediaAction/Download/MediaDownload.h; sourceTree = SOURCE_ROOT; };
+		CD940D3324F125BA009C81AE /* MediaDownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MediaDownload.m; path = CodeDesign/MediaAction/Download/MediaDownload.m; sourceTree = SOURCE_ROOT; };
+		CD940D3524F12710009C81AE /* MediaDownloadProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaDownloadProtocol.h; path = CodeDesign/MediaAction/Download/MediaDownloadProtocol.h; sourceTree = SOURCE_ROOT; };
+		CD940D3624F1285D009C81AE /* MediaDecoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaDecoding.h; path = CodeDesign/MediaAction/Decoding/MediaDecoding.h; sourceTree = SOURCE_ROOT; };
+		CD940D3724F1285D009C81AE /* MediaDecoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MediaDecoding.m; path = CodeDesign/MediaAction/Decoding/MediaDecoding.m; sourceTree = SOURCE_ROOT; };
+		CD940D3924F1286D009C81AE /* MediaDecodingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaDecodingProtocol.h; path = CodeDesign/MediaAction/Decoding/MediaDecodingProtocol.h; sourceTree = SOURCE_ROOT; };
+		CD940D3A24F1288D009C81AE /* MediaUnZip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaUnZip.h; path = CodeDesign/MediaAction/UnZip/MediaUnZip.h; sourceTree = SOURCE_ROOT; };
+		CD940D3B24F1288D009C81AE /* MediaUnZip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MediaUnZip.m; path = CodeDesign/MediaAction/UnZip/MediaUnZip.m; sourceTree = SOURCE_ROOT; };
+		CD940D3D24F1289F009C81AE /* MediaUnZipProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaUnZipProtocol.h; path = CodeDesign/MediaAction/UnZip/MediaUnZipProtocol.h; sourceTree = SOURCE_ROOT; };
+		CD940D3E24F128B8009C81AE /* MediaCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaCache.h; path = CodeDesign/MediaAction/Cache/MediaCache.h; sourceTree = SOURCE_ROOT; };
+		CD940D3F24F128B8009C81AE /* MediaCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MediaCache.m; path = CodeDesign/MediaAction/Cache/MediaCache.m; sourceTree = SOURCE_ROOT; };
+		CD940D4124F128C5009C81AE /* MediaCacheProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaCacheProtocol.h; path = CodeDesign/MediaAction/Cache/MediaCacheProtocol.h; sourceTree = SOURCE_ROOT; };
+		CD940D4224F12925009C81AE /* MediaActionNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaActionNode.h; path = MediaAction/MediaActionNode.h; sourceTree = "<group>"; };
+		CD940D4324F12925009C81AE /* MediaActionNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MediaActionNode.m; path = MediaAction/MediaActionNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD940CF724F11A6E009C81AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD940CF124F11A6E009C81AE = {
+			isa = PBXGroup;
+			children = (
+				CD940CFC24F11A6E009C81AE /* CodeDesign */,
+				CD940CFB24F11A6E009C81AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD940CFB24F11A6E009C81AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD940CFA24F11A6E009C81AE /* CodeDesign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD940CFC24F11A6E009C81AE /* CodeDesign */ = {
+			isa = PBXGroup;
+			children = (
+				CD940D2A24F120AA009C81AE /* MediaAction */,
+				CD940D1B24F11AC3009C81AE /* FileSearch */,
+				CD940CFD24F11A6E009C81AE /* AppDelegate.h */,
+				CD940CFE24F11A6E009C81AE /* AppDelegate.m */,
+				CD940D0024F11A6E009C81AE /* SceneDelegate.h */,
+				CD940D0124F11A6E009C81AE /* SceneDelegate.m */,
+				CD940D0324F11A6E009C81AE /* ViewController.h */,
+				CD940D0424F11A6E009C81AE /* ViewController.m */,
+				CD940D0624F11A6E009C81AE /* Main.storyboard */,
+				CD940D0924F11A6F009C81AE /* Assets.xcassets */,
+				CD940D0B24F11A6F009C81AE /* LaunchScreen.storyboard */,
+				CD940D0E24F11A6F009C81AE /* Info.plist */,
+				CD940D0F24F11A6F009C81AE /* main.m */,
+			);
+			path = CodeDesign;
+			sourceTree = "<group>";
+		};
+		CD940D1B24F11AC3009C81AE /* FileSearch */ = {
+			isa = PBXGroup;
+			children = (
+				CD940D2024F11ED2009C81AE /* Model */,
+				CD940D1C24F11AE4009C81AE /* FileSearch.h */,
+				CD940D1D24F11AE4009C81AE /* FileSearch.m */,
+				CD940D1F24F11E7C009C81AE /* FileSearchProtocol.h */,
+			);
+			name = FileSearch;
+			sourceTree = "<group>";
+		};
+		CD940D2024F11ED2009C81AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD940D2124F11EF7009C81AE /* SearchFileNameBeginModel.h */,
+				CD940D2224F11EF7009C81AE /* SearchFileNameBeginModel.m */,
+				CD940D2424F11F1D009C81AE /* SearchFileNameEndModel.h */,
+				CD940D2524F11F1D009C81AE /* SearchFileNameEndModel.m */,
+				CD940D2724F11F36009C81AE /* SearchFileExtensionModel.h */,
+				CD940D2824F11F36009C81AE /* SearchFileExtensionModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CD940D2A24F120AA009C81AE /* MediaAction */ = {
+			isa = PBXGroup;
+			children = (
+				CD940D3124F12595009C81AE /* Cache */,
+				CD940D3024F1257F009C81AE /* UnZip */,
+				CD940D2F24F1254D009C81AE /* Decoding */,
+				CD940D2E24F124F2009C81AE /* Download */,
+				CD940D2B24F1216E009C81AE /* MediaActionMgr.h */,
+				CD940D2C24F1216E009C81AE /* MediaActionMgr.m */,
+				CD940D4224F12925009C81AE /* MediaActionNode.h */,
+				CD940D4324F12925009C81AE /* MediaActionNode.m */,
+			);
+			name = MediaAction;
+			sourceTree = "<group>";
+		};
+		CD940D2E24F124F2009C81AE /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				CD940D3224F125BA009C81AE /* MediaDownload.h */,
+				CD940D3324F125BA009C81AE /* MediaDownload.m */,
+				CD940D3524F12710009C81AE /* MediaDownloadProtocol.h */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		CD940D2F24F1254D009C81AE /* Decoding */ = {
+			isa = PBXGroup;
+			children = (
+				CD940D3624F1285D009C81AE /* MediaDecoding.h */,
+				CD940D3724F1285D009C81AE /* MediaDecoding.m */,
+				CD940D3924F1286D009C81AE /* MediaDecodingProtocol.h */,
+			);
+			path = Decoding;
+			sourceTree = "<group>";
+		};
+		CD940D3024F1257F009C81AE /* UnZip */ = {
+			isa = PBXGroup;
+			children = (
+				CD940D3A24F1288D009C81AE /* MediaUnZip.h */,
+				CD940D3B24F1288D009C81AE /* MediaUnZip.m */,
+				CD940D3D24F1289F009C81AE /* MediaUnZipProtocol.h */,
+			);
+			path = UnZip;
+			sourceTree = "<group>";
+		};
+		CD940D3124F12595009C81AE /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				CD940D3E24F128B8009C81AE /* MediaCache.h */,
+				CD940D3F24F128B8009C81AE /* MediaCache.m */,
+				CD940D4124F128C5009C81AE /* MediaCacheProtocol.h */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD940CF924F11A6E009C81AE /* CodeDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD940D1324F11A6F009C81AE /* Build configuration list for PBXNativeTarget "CodeDesign" */;
+			buildPhases = (
+				CD940CF624F11A6E009C81AE /* Sources */,
+				CD940CF724F11A6E009C81AE /* Frameworks */,
+				CD940CF824F11A6E009C81AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeDesign;
+			productName = CodeDesign;
+			productReference = CD940CFA24F11A6E009C81AE /* CodeDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD940CF224F11A6E009C81AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "杜璇";
+				TargetAttributes = {
+					CD940CF924F11A6E009C81AE = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = CD940CF524F11A6E009C81AE /* Build configuration list for PBXProject "CodeDesign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD940CF124F11A6E009C81AE;
+			productRefGroup = CD940CFB24F11A6E009C81AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD940CF924F11A6E009C81AE /* CodeDesign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD940CF824F11A6E009C81AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD940D0D24F11A6F009C81AE /* LaunchScreen.storyboard in Resources */,
+				CD940D0A24F11A6F009C81AE /* Assets.xcassets in Resources */,
+				CD940D0824F11A6E009C81AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD940CF624F11A6E009C81AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD940D1E24F11AE4009C81AE /* FileSearch.m in Sources */,
+				CD940D3C24F1288D009C81AE /* MediaUnZip.m in Sources */,
+				CD940D4024F128B8009C81AE /* MediaCache.m in Sources */,
+				CD940D2924F11F36009C81AE /* SearchFileExtensionModel.m in Sources */,
+				CD940D4424F12925009C81AE /* MediaActionNode.m in Sources */,
+				CD940D0524F11A6E009C81AE /* ViewController.m in Sources */,
+				CD940D3824F1285D009C81AE /* MediaDecoding.m in Sources */,
+				CD940D2324F11EF7009C81AE /* SearchFileNameBeginModel.m in Sources */,
+				CD940CFF24F11A6E009C81AE /* AppDelegate.m in Sources */,
+				CD940D1024F11A6F009C81AE /* main.m in Sources */,
+				CD940D2624F11F1D009C81AE /* SearchFileNameEndModel.m in Sources */,
+				CD940D2D24F1216E009C81AE /* MediaActionMgr.m in Sources */,
+				CD940D3424F125BA009C81AE /* MediaDownload.m in Sources */,
+				CD940D0224F11A6E009C81AE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD940D0624F11A6E009C81AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD940D0724F11A6E009C81AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD940D0B24F11A6F009C81AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD940D0C24F11A6F009C81AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD940D1124F11A6F009C81AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD940D1224F11A6F009C81AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD940D1424F11A6F009C81AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMP99N9345;
+				INFOPLIST_FILE = CodeDesign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dx.CodeDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD940D1524F11A6F009C81AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BMP99N9345;
+				INFOPLIST_FILE = CodeDesign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dx.CodeDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD940CF524F11A6E009C81AE /* Build configuration list for PBXProject "CodeDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD940D1124F11A6F009C81AE /* Debug */,
+				CD940D1224F11A6F009C81AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD940D1324F11A6F009C81AE /* Build configuration list for PBXNativeTarget "CodeDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD940D1424F11A6F009C81AE /* Debug */,
+				CD940D1524F11A6F009C81AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD940CF224F11A6E009C81AE /* Project object */;
+}
